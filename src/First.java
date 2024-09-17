@@ -17,6 +17,7 @@ public class First {
         System.out.print("Введите через пробел x3 и y3:");
         float x3 = in.nextFloat();
         float y3 = in.nextFloat();
+
         float res1 = (x1 - x) * (y2 - y1) - (x2 - x1) * (y1 - y);// вычисляет ориентацию точки  относительно прямой
         float res2 = (x2 - x) * (y3 - y2) - (x3 - x2) * (y2 - y);// вычисляет ориентацию точки  относительно прямой
         float res3 = (x3 - x) * (y1 - y3) - (x1 - x3) * (y3 - y);// вычисляет ориентацию точки  относительно прямой
