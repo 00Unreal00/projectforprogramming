@@ -1,17 +1,23 @@
-import java.util.InputMismatchException;
 import  java.util.Scanner;
 //import java.util.Arrays;
 
 public class Third{
     public static  void main(String[] args){
-        try {
             Scanner scanner = new Scanner(System.in);
             int count = 0, summa = 0;
             System.out.println("Введите длину массива:");
+            while (!scanner.hasNextInt()){
+                System.out.println("Введено некоректное значение");
+                scanner.next();
+            }
             int lenmass = scanner.nextInt();
             System.out.println("Введите массив:");
             int[] nums = new int[lenmass];
-            for (int i = 0; i < lenmass; i++) {
+            for (int i = 0; i < lenmass; i++) {;
+                while (!scanner.hasNextInt()){
+                    System.out.println("Введено некоректное значение");
+                    scanner.next();
+                }
                 nums[i] = scanner.nextInt();
             }
 //        System.out.println(Arrays.toString(nums));
@@ -23,8 +29,6 @@ public class Third{
             }
             System.out.println("Количество чётных чисел:" + count + "\n" + "Сумма чётных чисел:" + summa);
         }
-        catch(InputMismatchException x){
-            System.out.println("Введено некорректное значение");
-        }
-    }
+
+
 }
