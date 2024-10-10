@@ -29,6 +29,4 @@ public class Third{
             }
             System.out.println("Количество чётных чисел:" + count + "\n" + "Сумма чётных чисел:" + summa);
         }
-
-
 }
