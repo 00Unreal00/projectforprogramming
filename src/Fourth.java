@@ -1,5 +1,6 @@
 import  java.util.Scanner;
 import java.util.Arrays;
+import java.util.ArrayList;
 
 public class Fourth{
     public static  void main(String[] args){
@@ -9,24 +10,26 @@ public class Fourth{
             System.out.println("Введено некоректное значение");
             scanner.next();
         }
-        int lenmass = scanner.nextInt();
+        int lenmass = Math.abs(scanner.nextInt());
         System.out.println("Введите массив:");
         int[] nums = new int[lenmass];
-        int[] nums2 = new int[lenmass/2];
-        for (int i = 1; i <= lenmass; i++) {
-            ;
+        for (int i = 0; i < lenmass; i++) {
             while (!scanner.hasNextInt()) {
                 System.out.println("Введено некоректное значение");
                 scanner.next();
             }
             nums[i] = scanner.nextInt();
-            if ((i) % 2 != 0) {
-
-                nums2[i/2] = nums[i];
-            }
         }
-        System.out.println(Arrays.toString(nums));
-        System.out.println(Arrays.toString(nums2));
+        ArrayList<Integer> oddnum = new ArrayList<>();
+        for (int i = 0; i < lenmass; i++){
+            if (nums[i]%2 != 0) {
+                oddnum.add(nums[i]);}}
+        int[] nums2 = new int[oddnum.size()];
+        for (int i = 0; i< oddnum.size(); i++){
+            nums2[i] = oddnum.get(i);
+        }
+        nums = nums2;
+        System.out.println("Итоговый массив: "+Arrays.toString(nums));
 
         }
 
