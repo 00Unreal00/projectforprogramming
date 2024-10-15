@@ -10,7 +10,7 @@ public class Third{
                 System.out.println("Введено некоректное значение");
                 scanner.next();
             }
-            int lenmass = scanner.nextInt();
+            int lenmass = Math.abs(scanner.nextInt());
             System.out.println("Введите массив:");
             int[] nums = new int[lenmass];
             for (int i = 0; i < lenmass; i++) {;
@@ -21,12 +21,13 @@ public class Third{
                 nums[i] = scanner.nextInt();
             }
 //        System.out.println(Arrays.toString(nums));
-            for (int k = 0; k < lenmass; k++) {
-                if (nums[k] % 2 == 0) {
-                    summa += nums[k];
+            for (int i = 0; i < lenmass; i++) {
+                if (nums[i] % 2 == 0) {
+                    summa += nums[i];
                     count += 1;
                 }
             }
             System.out.println("Количество чётных чисел:" + count + "\n" + "Сумма чётных чисел:" + summa);
         }
-}
+
+    }
