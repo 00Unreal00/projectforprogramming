@@ -234,13 +234,13 @@
         <mxCell id="P1nM6_UvGkQiOIyWBsLS-13" value="nums2[count2] = nums[i]" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="356" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P1nM6_UvGkQiOIyWBsLS-18" value="20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="P1nM6_UvGkQiOIyWBsLS-18" value="19" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="795" y="238" width="31" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mXQ_ZJh1T7watDNRMANd-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="P1nM6_UvGkQiOIyWBsLS-21" target="bmEGlPsIjCVy9guxLpB3-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P1nM6_UvGkQiOIyWBsLS-21" value="&quot;Итоговый массив: &quot;+Arrays.toString(nums)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="P1nM6_UvGkQiOIyWBsLS-21" value="&quot;Итоговый массив: &quot;+Arrays.toString(nums2)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="712" y="543" width="135" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GMteoEHUk3SbCmujjQgq-9" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -301,19 +301,19 @@
         <mxCell id="IVB1yO799H7LrM7W40AV-8" value="count2 += 1" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="442" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IVB1yO799H7LrM7W40AV-13" value="19" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="IVB1yO799H7LrM7W40AV-13" value="18" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="826" y="107" width="31" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IVB1yO799H7LrM7W40AV-14" value="21" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="IVB1yO799H7LrM7W40AV-14" value="20" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="801" y="327" width="31" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="IVB1yO799H7LrM7W40AV-15" value="22" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="IVB1yO799H7LrM7W40AV-15" value="21" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="811" y="419" width="31" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mXQ_ZJh1T7watDNRMANd-6" value="23" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="mXQ_ZJh1T7watDNRMANd-6" value="22" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="842" y="536" width="31" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="mXQ_ZJh1T7watDNRMANd-7" value="24" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="mXQ_ZJh1T7watDNRMANd-7" value="23" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="795" y="626" width="31" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mXQ_ZJh1T7watDNRMANd-8" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
